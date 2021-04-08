@@ -1,3 +1,8 @@
 index:
     path: /
+    controller: App\Controller\IndexAction
+
+select_player:
+    path: /vyber-hrace
     controller: App\Controller\SelectPlayerAction
+
