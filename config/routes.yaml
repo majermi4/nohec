@@ -1,14 +1,11 @@
 index:
     path: /
     controller: App\Controller\IndexAction
-    schemes: [ https ]
 
 select_player:
     path: /vyber-hrace
     controller: App\Controller\SelectPlayerAction
-    schemes: [ https ]
 
 show_players:
     path: /hraci
     controller: App\Controller\ShowPlayersAction
-    schemes: [ https ]
