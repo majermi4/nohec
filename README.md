@@ -13,3 +13,5 @@ Environment is configured via the [heroku CLI](https://devcenter.heroku.com/arti
 ```
 heroku config:set APP_ENV=prod --app=nohec
 ```
+
+Database credentials are parsed from as `DATABASE_URL` env variable. In prod, heroku automatically does this. Set the value in `.env` file for dev env.
