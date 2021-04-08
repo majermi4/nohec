@@ -8,8 +8,8 @@
         <div class="card mb-3">
             <div class="card-body">
                 <h5 class="card-title"><i class="bi bi-calendar-event"></i> Příští termín</h5>
-                <p class="card-text">Termín: 19:00, St. 15.7. 2021</p>
-                <a href="{{ url('select_player') }}" class="btn btn-primary">Zobrait termín</a>
+                <p class="card-text">Čas konání: 19:00, St. 15.7. 2021</p>
+                <a href="{{ path('select_player') }}" class="btn btn-primary">Zobrait termín</a>
             </div>
         </div>
     </div>
@@ -18,7 +18,7 @@
             <div class="card-body">
                 <h5 class="card-title"><i class="bi bi-person-lines-fill"></i> Hráči</h5>
                 <p class="card-text">Seznam všech hráčů a jejich účastí</p>
-                <a href="{{ url('select_player') }}" class="btn btn-primary">Zobrazit hráče</a>
+                <a href="{{ path('show_players') }}" class="btn btn-primary">Zobrazit hráče</a>
             </div>
         </div>
     </div>
@@ -34,7 +34,7 @@
                         Adam Z. <span class="badge bg-danger">400 Kč</span>
                     </button>
                 </p>
-                <a href="{{ url('select_player') }}" class="btn btn-primary">Zobrazit nedoplatky</a>
+                <a href="{{ path('select_player') }}" class="btn btn-primary">Zobrazit nedoplatky</a>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
             <div class="card-body">
                 <h5 class="card-title"><i class="bi bi-pencil-square"></i> Administrace</h5>
                 <p class="card-text">Správa termínů, hráče, plateb, atd.</p>
-                <a href="{{ url('select_player') }}" class="btn btn-primary">Spravovat</a>
+                <a href="{{ path('select_player') }}" class="btn btn-primary">Spravovat</a>
             </div>
         </div>
     </div>

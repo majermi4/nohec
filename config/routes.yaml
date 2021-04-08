@@ -6,3 +6,6 @@ select_player:
     path: /vyber-hrace
     controller: App\Controller\SelectPlayerAction
 
+show_players:
+    path: /hraci
+    controller: App\Controller\ShowPlayersAction
